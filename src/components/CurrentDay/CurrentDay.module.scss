@@ -1,0 +1,40 @@
+@import '../../styles/variables.scss';
+
+.currentDay {
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    background: $white-background;
+    box-shadow: $box-shadow;
+    border-radius: $border-radius;
+}
+
+.top_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+
+    svg {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+.current_temp {
+    font-size: 90px;
+    font-weight: 500;
+    color: $primary-color;
+}
+
+.current_day {
+    font-size: 30px;
+    color: $primary-text-color
+}
+
+.current_time,
+.current_city {
+    font-size: 20px;
+    color: $secondary-text-color;
+}
