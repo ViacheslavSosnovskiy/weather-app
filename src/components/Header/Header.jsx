@@ -3,7 +3,7 @@ import Select from 'react-select'
 
 import s from './Header.module.scss'
 import Logo from '../Logo'
-import GlobalSvgSelector from '../../assets/icons/GlobalSvgSelector'
+import GlobalSvgSelector from '../../assets/icons/global/GlobalSvgSelector'
 
 const Header = () => {
     const options = [

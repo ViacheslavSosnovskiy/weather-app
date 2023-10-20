@@ -1,6 +1,6 @@
 import React from 'react'
 import s from './CurrentDay.module.scss'
-import GlobalSvgSelector from '../../assets/icons/GlobalSvgSelector'
+import GlobalSvgSelector from '../../assets/icons/global/GlobalSvgSelector'
 
 const CurrentDay = () => {
   return (

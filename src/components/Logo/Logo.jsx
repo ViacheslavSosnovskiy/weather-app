@@ -1,9 +1,12 @@
 import React from 'react'
-import GlobalSvgSelector from '../../assets/icons/GlobalSvgSelector'
+import GlobalSvgSelector from '../../assets/icons/global/GlobalSvgSelector'
+import s from './Logo.module.scss'
 
 const Logo = () => {
   return (
-    <GlobalSvgSelector id="logo" />
+    <span className={s.logo}>
+      <GlobalSvgSelector id="logo" />
+    </span>
   )
 }
 

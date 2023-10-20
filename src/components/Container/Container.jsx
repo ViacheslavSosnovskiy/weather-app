@@ -1,18 +1,9 @@
 import React from 'react'
-
-const styles = {
-    div: {
-        'maxWodth': '604px',
-        'height': '829px',
-        'marginTop': '80px',
-        'borderRadius': '12px',
-        
-    }
-}
+import s from './Container.module.scss'
 
 const Container = ({children}) => {
   return (
-    <div style={styles.div}>{children}</div>
+    <div className={s.container}>{children}</div>
   )
 }
 

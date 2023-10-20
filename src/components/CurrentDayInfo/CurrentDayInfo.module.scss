@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.currentDayInfo {
+    position: relative;
+    padding: 40px;
+    max-width: 750px;
+    width: 100%;
+    border-radius: $border-radius;
+    background: $white-background;
+    box-shadow: $box-shadow;
+}
+
+.cloud_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}

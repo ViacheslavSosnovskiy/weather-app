@@ -1,0 +1,20 @@
+@import '../../styles/variables.scss';
+
+.weather_tabs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs_list {
+    display: flex;
+}
+
+.cancel_button {
+    font-size: 18px;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: $primary-text-color;
+    background: $white-background;
+    box-shadow: $box-shadow;
+}

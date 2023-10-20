@@ -1,0 +1,12 @@
+@import '../../styles/variables.scss';
+
+.days_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    background: $white-background;
+    box-shadow: $box-shadow;
+    border-radius: 0 0 $border-radius;
+}
