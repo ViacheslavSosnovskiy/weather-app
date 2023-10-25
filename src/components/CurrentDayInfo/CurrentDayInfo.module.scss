@@ -6,7 +6,7 @@
     max-width: 750px;
     width: 100%;
     border-radius: $border-radius;
-    background: $white-background;
+    background: var(#{--component-background-default});
     box-shadow: $box-shadow;
 }
 

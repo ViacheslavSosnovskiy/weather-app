@@ -1,6 +1,8 @@
 import React from 'react'
 import s from './PopupWeather.module.scss'
 import CurrentDayItem from '../CurrentDayItem/CurrentDayItem';
+import GlobalSvgSelector from '../../assets/icons/global/GlobalSvgSelector';
+import PopupWeatherCard from '../PopupWeatherCard';
 
 const PopupWeather = () => {
     const items = [
@@ -28,11 +30,15 @@ const PopupWeather = () => {
   return (
     <>
       <div className={s.weather_popup}>
+        <PopupWeatherCard />
         <ul className={s.weather_popup_list}>
             {items.map(item => (
                 <CurrentDayItem key={item.iconId} item={item}/>
             ))}
         </ul>
+        <div className={s.close_button}>
+          <GlobalSvgSelector id='close' />
+        </div>
       </div>
     </>
   )

@@ -6,7 +6,7 @@
     justify-content: space-between;
     padding: 20px;
     width: 100%;
-    background: $white-background;
+    background: var(#{--component-background-default});
     box-shadow: $box-shadow;
     border-radius: 0 0 $border-radius;
 }

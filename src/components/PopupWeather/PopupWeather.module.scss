@@ -14,3 +14,21 @@
     background: $white-background;
     box-shadow: $box-shadow;
 }
+
+.close_button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+
+    svg {
+        transition: linear 400ms;
+    }
+
+    &:hover,
+    &:focus {
+        svg {
+            transform: rotate(360deg);
+        }
+    }
+}

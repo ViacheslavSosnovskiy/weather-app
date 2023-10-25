@@ -4,7 +4,7 @@
     padding: 20px;
     max-width: 400px;
     width: 100%;
-    background: $white-background;
+    background: var(--component-background-default);
     box-shadow: $box-shadow;
     border-radius: $border-radius;
 }
@@ -30,7 +30,7 @@
 
 .current_day {
     font-size: 30px;
-    color: $primary-text-color
+    color: var(#{--text-color-default});
 }
 
 .current_time,

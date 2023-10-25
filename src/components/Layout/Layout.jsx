@@ -1,12 +1,12 @@
 import React, { Suspense } from 'react'
 import { Outlet } from 'react-router-dom'
 import Header from '../Header'
-import PopupWeather from '../PopupWeather'
+// import PopupWeather from '../PopupWeather'
 
 const Layout = () => {
   return (
     <> 
-        <PopupWeather/>
+        {/* <PopupWeather/> */}
         <Header />
         <main>
             <Suspense>

@@ -31,5 +31,5 @@
 }
 
 .indicator_value {
-    color: $primary-text-color;
+    color: var(#{--text-color-default});
 }

@@ -4,7 +4,7 @@ import s from './WeatherTabItem.module.scss'
 const WeatherTabItem = ({item}) => {
   return (
     <li className={s.tab_item}>
-        <div className={s.tab_button}>{item.value}</div>
+        <div className={s.tab_button + '' + s.active}>{item.value}</div>
     </li>
   )
 }
