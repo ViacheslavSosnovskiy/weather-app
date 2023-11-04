@@ -1,7 +1,12 @@
-import axios from "axios"
+export const geoApiOptions = {
+    method: "GET",
+    headers: {
+      "X-RapidAPI-Key": "6d15b2f87dmsh21a4f3344e78c93p1c2a90jsndb5e1c057259",
+      "X-RapidAPI-Host": "wft-geo-db.p.rapidapi.com",
+    },
+};
 
-axios.defaults.baseURL = 'https://api.openweathermap.org/data/2.5/weather?'
+export const GEO_API_URL = "https://wft-geo-db.p.rapidapi.com/v1/geo";
 
-const API_KEY = '694640251302f81108027b21a69563df'
-
-// const url = `q=${query}&appid=${API_KEY}`
+export const WEATHER_API_URL = "https://api.openweathermap.org/data/2.5"
+export const WEATHER_API_KEY = "694640251302f81108027b21a69563df"

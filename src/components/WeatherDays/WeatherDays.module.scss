@@ -8,5 +8,5 @@
     width: 100%;
     background: var(#{--component-background-default});
     box-shadow: $box-shadow;
-    border-radius: 0 0 $border-radius;
+    border-radius: 0 0 $border-radius $border-radius;
 }
