@@ -1,7 +1,7 @@
 @import '../../styles/variables.scss';
 
 .currentDay {
-    padding: 20px;
+    padding: 40px;
     max-width: 400px;
     width: 100%;
     background: var(--component-background-default);
@@ -14,22 +14,23 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .current_temp {
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 500;
     color: $primary-color;
 }
 
-.current_day {
-    font-size: 30px;
+.current_day,
+.current_city {
+    font-size: 24px;
     color: var(#{--text-color-default});
 }
 
-.current_time,
-.current_city {
+.current_weather {
     font-size: 20px;
     color: $secondary-text-color;
+    margin-bottom: 10px;
 }

@@ -1,0 +1,18 @@
+:root {
+  --body-background-dark: #0d1117;
+  --body-background-light: #fff;
+  --body-background-default: var(--body-background-light);
+  --component-background-dark: #4f4f4f;
+  --component-background-light: #fff;
+  --component-background-default: var(--component-background-light);
+  --card-background-dark: #2e3035;
+  --card-background-light: rgba(71, 147, 255, 0.2);
+  --card-background-default: var(--card-background-light);
+  --card-shadow-dark: 0px 3px 20px rgba(5, 5, 5, 0.28);
+  --card-shadow-light: 0px 3px 20px rgba(5, 5, 5, 0.28);
+  --card-shadow-default: var(--card-shadow-light);
+  --text-color-dark: #fff;
+  --text-color-light: #000;
+  --text-color-default: var(--text-color-light);
+}
+/*# sourceMappingURL=variables.css.map */

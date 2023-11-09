@@ -1,0 +1,102 @@
+:root {
+  --body-background-dark: #0d1117;
+  --body-background-light: #fff;
+  --body-background-default: var(--body-background-light);
+  --component-background-dark: #4f4f4f;
+  --component-background-light: #fff;
+  --component-background-default: var(--component-background-light);
+  --card-background-dark: #2e3035;
+  --card-background-light: rgba(71, 147, 255, 0.2);
+  --card-background-default: var(--card-background-light);
+  --card-shadow-dark: 0px 3px 20px rgba(5, 5, 5, 0.28);
+  --card-shadow-light: 0px 3px 20px rgba(5, 5, 5, 0.28);
+  --card-shadow-default: var(--card-shadow-light);
+  --text-color-dark: #fff;
+  --text-color-light: #000;
+  --text-color-default: var(--text-color-light);
+}
+
+.weather_list {
+  padding: 20px;
+  width: 80%;
+  background: var(--component-background-default);
+  -webkit-box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.45);
+          box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.45);
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .weather_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+}
+
+.weather_card {
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: var(--card-background-default);
+  -webkit-transition: linear 250ms;
+  transition: linear 250ms;
+}
+
+.weather_card:hover, .weather_card:focus {
+  -webkit-box-shadow: var(--card-shadow-default);
+          box-shadow: var(--card-shadow-default);
+}
+
+@media screen and (max-width: 1199px) {
+  .weather_card {
+    text-align: center;
+  }
+  .weather_card:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .weather_card {
+    width: calc(100% / 3  - 20px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .weather_card {
+    width: calc(100% / 7 - 20px);
+  }
+}
+
+.day,
+.weather_temp {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: var(--text-color-default);
+}
+
+@media screen and (min-width: 768px) {
+  .day,
+  .weather_temp {
+    font-size: 18px;
+  }
+}
+
+.weather_info {
+  font-size: 24px;
+  margin-bottom: 12px;
+  color: #939cb0;
+}
+
+@media screen and (min-width: 768px) {
+  .weather_info {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=WeatherDays.module.css.map */

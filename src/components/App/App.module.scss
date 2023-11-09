@@ -1,10 +1,5 @@
 @import '../../styles/variables.scss';
 
-.main_wrapper {
-    display: flex;
-    justify-content: space-between;
-}
-
 .header {
     display: flex;
     align-items: center;
@@ -16,6 +11,15 @@
 .wrapper {
     display: flex;
     align-items: center;
+}
+
+.section_current_day {
+    padding-bottom: 20px;
+    
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .title {

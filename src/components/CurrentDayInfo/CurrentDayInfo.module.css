@@ -1,0 +1,80 @@
+:root {
+  --body-background-dark: #0d1117;
+  --body-background-light: #fff;
+  --body-background-default: var(--body-background-light);
+  --component-background-dark: #4f4f4f;
+  --component-background-light: #fff;
+  --component-background-default: var(--component-background-light);
+  --card-background-dark: #2e3035;
+  --card-background-light: rgba(71, 147, 255, 0.2);
+  --card-background-default: var(--card-background-light);
+  --card-shadow-dark: 0px 3px 20px rgba(5, 5, 5, 0.28);
+  --card-shadow-light: 0px 3px 20px rgba(5, 5, 5, 0.28);
+  --card-shadow-default: var(--card-shadow-light);
+  --text-color-dark: #fff;
+  --text-color-light: #000;
+  --text-color-default: var(--text-color-light);
+}
+
+.currentDayInfo {
+  position: relative;
+  padding: 40px;
+  max-width: 750px;
+  width: 100%;
+  border-radius: 20px;
+  background: var(--component-background-default);
+  -webkit-box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.45);
+          box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.45);
+}
+
+.item_info {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item_info:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.indicator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  -webkit-box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.45);
+          box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.45);
+}
+
+.indicator_name,
+.indicator_value {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.indicator_name {
+  color: #939cb0;
+}
+
+.indicator_value {
+  color: var(--text-color-default);
+}
+
+.cloud_img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/*# sourceMappingURL=CurrentDayInfo.module.css.map */

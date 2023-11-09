@@ -3,7 +3,6 @@ import Container from "../Container";
 import CurrentDay from "../CurrentDay";
 import CurrentDayInfo from "../CurrentDayInfo";
 import WeatherDays from "../WeatherDays";
-import WeatherTabs from "../WeatherTabs";
 import Logo from "../Logo";
 
 import s from "./App.module.scss";
@@ -60,16 +59,17 @@ const App = () => {
         </div>
       </header>
       <main className={s.main}>
-        <div className={s.main_wrapper}>
+        <section className={s.section_current_day}>
           {currentWeather && (
             <>
               <CurrentDay data={currentWeather} />
               <CurrentDayInfo data={currentWeather} />
             </>
           )}
-        </div>
-        <WeatherTabs />
-        <WeatherDays />
+        </section>
+        <section className={s.section_forecast}>
+          {forecast && <WeatherDays data={forecast} />}
+        </section>
       </main>
     </Container>
   );

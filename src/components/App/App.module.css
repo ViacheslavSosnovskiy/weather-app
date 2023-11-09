@@ -1,0 +1,72 @@
+:root {
+  --body-background-dark: #0d1117;
+  --body-background-light: #fff;
+  --body-background-default: var(--body-background-light);
+  --component-background-dark: #4f4f4f;
+  --component-background-light: #fff;
+  --component-background-default: var(--component-background-light);
+  --card-background-dark: #2e3035;
+  --card-background-light: rgba(71, 147, 255, 0.2);
+  --card-background-default: var(--card-background-light);
+  --card-shadow-dark: 0px 3px 20px rgba(5, 5, 5, 0.28);
+  --card-shadow-light: 0px 3px 20px rgba(5, 5, 5, 0.28);
+  --card-shadow-default: var(--card-shadow-light);
+  --text-color-dark: #fff;
+  --text-color-light: #000;
+  --text-color-default: var(--text-color-light);
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section_current_day {
+  padding-bottom: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .section_current_day {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  color: #4793ff;
+}
+
+.change_theme,
+.logo {
+  margin-right: 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=App.module.css.map */

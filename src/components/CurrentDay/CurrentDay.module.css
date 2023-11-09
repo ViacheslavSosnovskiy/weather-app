@@ -1,0 +1,60 @@
+:root {
+  --body-background-dark: #0d1117;
+  --body-background-light: #fff;
+  --body-background-default: var(--body-background-light);
+  --component-background-dark: #4f4f4f;
+  --component-background-light: #fff;
+  --component-background-default: var(--component-background-light);
+  --card-background-dark: #2e3035;
+  --card-background-light: rgba(71, 147, 255, 0.2);
+  --card-background-default: var(--card-background-light);
+  --card-shadow-dark: 0px 3px 20px rgba(5, 5, 5, 0.28);
+  --card-shadow-light: 0px 3px 20px rgba(5, 5, 5, 0.28);
+  --card-shadow-default: var(--card-shadow-light);
+  --text-color-dark: #fff;
+  --text-color-light: #000;
+  --text-color-default: var(--text-color-light);
+}
+
+.currentDay {
+  padding: 40px;
+  max-width: 400px;
+  width: 100%;
+  background: var(--component-background-default);
+  -webkit-box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.45);
+          box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.45);
+  border-radius: 20px;
+}
+
+.top_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.current_temp {
+  font-size: 80px;
+  font-weight: 500;
+  color: #4793ff;
+}
+
+.current_day,
+.current_city {
+  font-size: 24px;
+  color: var(--text-color-default);
+}
+
+.current_weather {
+  font-size: 20px;
+  color: #939cb0;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=CurrentDay.module.css.map */

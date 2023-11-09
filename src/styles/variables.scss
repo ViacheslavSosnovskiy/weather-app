@@ -25,25 +25,25 @@ $text-theme-light: #000;
     // body background
     --body-background-dark: #{$body-background-dark};
     --body-background-light: #{$body-background-light};
-    --body-background-default: var(#{--body-background-dark});
+    --body-background-default: var(#{--body-background-light});
 
     // components background
     --component-background-dark: #{$component-background-dark};
     --component-background-light: #{$component-background-light};
-    --component-background-default: var(#{--component-background-dark});
+    --component-background-default: var(#{--component-background-light});
 
     // card background
     --card-background-dark: #{$card-background-dark};
     --card-background-light: #{$card-background-light};
-    --card-background-default: var(#{--card-background-dark});
+    --card-background-default: var(#{--card-background-light});
 
     // card shadow background
     --card-shadow-dark: #{$card-box-shadow-dark};
     --card-shadow-light: #{$card-box-shadow-light};
-    --card-shadow-default: var(#{--card-shadow-dark});
+    --card-shadow-default: var(#{--card-shadow-light});
 
     // text
     --text-color-dark: #{$text-theme-dark};
     --text-color-light: #{$text-theme-light};
-    --text-color-default: var(#{--text-color-dark});
+    --text-color-default: var(#{--text-color-light});
 }
